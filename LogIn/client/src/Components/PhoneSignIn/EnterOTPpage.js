@@ -20,7 +20,8 @@ const EnterOTPpage = () => {
             required
           />
           </form>
-          <button className='signin-btn1'>Submit</button>
+          <button className='signin-btn1'>
+          <a href='https://kitchenhamara.com/'>Submit</a></button>
           
           
         </div>

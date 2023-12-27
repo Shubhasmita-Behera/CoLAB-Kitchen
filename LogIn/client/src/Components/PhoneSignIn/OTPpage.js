@@ -1,5 +1,6 @@
 import React from 'react';
 import './OTPpage.css';
+import { Link } from 'react-router-dom';
 
 const OTPpage = () => {
   return (
@@ -20,7 +21,9 @@ const OTPpage = () => {
             required
           />
           </form>
-          <button className='signin-btn1'>Send OTP</button>
+          <button className='signin-btn1'>
+          <Link to='/receiveOTP'>Send OTP</Link>
+          </button>
           
           
         </div>

@@ -44,7 +44,7 @@ line-height: 20px;
     background-image: url('C:\Users\SHUBHASMITA BEHERA\Downloads\Group 29.png');
     width: 40.89px;
     height: 36.91px;
-    margin-top: 40%;
+    margin-top: 30%;
 }
 
 #kitchen-captionlogo{
@@ -63,13 +63,13 @@ line-height: 9.309px;
 display: flex;
 width: 200px;
 height: 22px;
-padding: 16px 16px 16px 16px;
+padding: 16px ;
 justify-content: center;
 align-items: center;
 border-radius: 6px;
 border-color: none;
 background: var(--Primary, #e85e18);
-margin-top: 20%;
+margin-top: 10%;
 color:rgb(246, 245, 243)
 }
 .signinbox-content a{
@@ -80,7 +80,7 @@ color:rgb(246, 245, 243)
     display: flex;
     width: 200px;
     height: 22px;
-    margin-top:10px;
+    margin-top:10%;
     padding: 16px 16px;
     justify-content: center;
     align-items: center;
