@@ -3,6 +3,7 @@
     grid-auto-flow: column;
     background-color: rgb(83, 82, 82);
     width:600px;
+    min-width: 300px;
     height:400px;
     margin:auto;
     min-width: 300px;

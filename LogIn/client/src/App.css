@@ -2,11 +2,24 @@
     display:grid;
     text-align: center;
     width: 100vw;
+    min-width: 333px;
     height: 100vh;
     flex-shrink: 0;
     background-image: url("C:\Users\SHUBHASMITA BEHERA\Downloads\Rectangle 2.png");
     box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.20);
     backdrop-filter: blur(12.449999809265137px);
     flex-wrap: wrap;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .App {
+            width: 100%;
+            min-width: auto;
+            height: auto;
+            background-image: url("C:\Users\SHUBHASMITA BEHERA\Downloads\Rectangle 2.png");
+            background-size: cover; 
+            backdrop-filter: blur(12.449999809265137px); 
+            box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.20);;
+        }
     }
 

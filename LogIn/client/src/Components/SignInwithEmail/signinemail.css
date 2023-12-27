@@ -81,7 +81,7 @@ line-height: 9.309px;
         background-color:#e85e18;
         color:#f5f4f3;  /*text color */
     }
-  #phone-form input{
+    .email-password-form input{
     display: flex;
     flex-direction: column;
     width: 170px;
@@ -93,7 +93,7 @@ line-height: 9.309px;
     border-color:orange;
     border-radius: 6px; 
 }
-#phoneNumber-label{
+.email-password-label{
    color:#FFF;
    font-size: 11px;
    font-family: monospace;

@@ -1,7 +1,7 @@
 import React from 'react';
 import './OTPpage.css';
 
-const OTPpage = () => {
+const EnterOTPpage = () => {
   return (
     <div className='signin-container'>
       <div className='signinimg-container'>
@@ -12,15 +12,15 @@ const OTPpage = () => {
           <div className='app-logo'></div>
           <p id="kitchen-captionlogo">KITCHEN</p>
           <form id='phone-form'>
-            <label id="phoneNumber-label">Enter MobileNo.</label>
+            <label id="phoneNumber-label">Enter OTP</label>
           <input
-            type='tel' 
+            type='OTP' 
             name="phoneNumber"
-            placeholder="e.g., 9999999999"
+            placeholder="XXXXX"
             required
           />
           </form>
-          <button className='signin-btn1'>Send OTP</button>
+          <button className='signin-btn1'>Submit</button>
           
           
         </div>
@@ -29,4 +29,4 @@ const OTPpage = () => {
   )
 }
 
-export default OTPpage
+export default EnterOTPpage
