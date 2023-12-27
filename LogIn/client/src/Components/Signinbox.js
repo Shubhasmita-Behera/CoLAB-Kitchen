@@ -1,6 +1,6 @@
 import React from 'react';
 import './signinbutton.css';
-import SigninemailPage from './SignInwithEmail/SigninemailPage'
+
 import {Link} from 'react-router-dom';
 const Signinbox = () => {
   return (
@@ -12,7 +12,7 @@ const Signinbox = () => {
         <div className='signinbox-content'>
           <div className='app-logo'></div>
           <p id="kitchen-captionlogo">KITCHEN</p>
-          <button className='signin-btn'>
+          <button className='signin-btn1'>
             <Link to='/signinwithemail'>Sign In with Email</Link>
           </button>
           <button className='signin-btn1'>

@@ -59,19 +59,6 @@ font-weight: 400;
 line-height: 9.309px; 
 }
 
-.signin-btn{
-display: flex;
-width: 200px;
-height: 22px;
-padding: 16px ;
-justify-content: center;
-align-items: center;
-border-radius: 6px;
-border-color: none;
-background: var(--Primary, #e85e18);
-margin-top: 10%;
-color:rgb(246, 245, 243)
-}
 .signinbox-content a{
     text-decoration: none;
 }
